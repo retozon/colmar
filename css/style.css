@@ -1,0 +1,68 @@
+#flex.header{
+            display:flex;
+        background-color: rgb(42, 98, 153);
+        justify-content: space-evenly;
+        text-align: right;
+        word-wrap: normal;
+        border: 24px;
+        flex-basis: 64px;  
+        padding: 24px;       
+}
+#flex.oncampus{
+    display: flex;
+    justify-content: space-between;
+    text-justify: right;
+    padding: 24px;
+    height: 60%;
+    text-align: end;
+    float: left;
+    
+}
+#flex.info{
+  display: flex;
+  justify-content: space-evenly;
+  text-justify: right;
+  padding: 24px;
+  height: 60%;
+  text-align: end;
+
+}
+#flex.classes{
+    display: flex;
+    justify-content: space-between;
+    text-justify: right;
+    padding: 24px;
+    height: 60%;
+    word-wrap: normal;
+}
+#flex.thesis{
+    display: flex;
+    justify-content: space-evenly;
+    text-justify: right;
+    padding: 24px;
+    height: 60%;
+    word-wrap: normal;
+}
+#Images{
+    width: auto;
+    text-align: inherit;
+    padding-left: auto;
+}
+#flex.footer{
+        display: flex;
+        justify-content: space-between;
+        text-justify: right;
+        padding: 24px;
+        height: 60%;
+        word-wrap: normal;
+    }
+    .banner-image{
+        max-width: 60%;
+        max-height: 24px;
+    }
+    .banner{
+        max-width: 60%;
+    }
+  
+
+
