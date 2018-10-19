@@ -1,59 +1,80 @@
+html,
+body,
+    {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: grey;
+}
+
+
+
 #flex.header{
             display:flex;
         background-color: rgb(42, 98, 153);
         justify-content: space-evenly;
         text-align: right;
-        word-wrap: normal;
-        border: 24px;
-        flex-basis: 64px;  
-        padding: 24px;       
+        word-wrap: normal;  
+        padding: 24px 24px 24px; 
+        
+            
 }
 #flex.oncampus{
-    display: flex;
-    justify-content: space-between;
-    text-justify: right;
-    padding: 24px;
-    height: 60%;
-    text-align: end;
-    float: left;
-    
-}
-#flex.info{
-  display: flex;
-  justify-content: space-evenly;
-  text-justify: right;
-  padding: 24px;
-  height: 60%;
-  text-align: end;
+       display:flex;
+       background-color: grey;
+       justify-content: space-evenly;
+       text-align: right;
+       word-wrap: normal;
+       padding: 24px 64px 24px;
+       flex-shrink: 1;
+       
 
 }
-#flex.classes{
+#flex.box {
     display: flex;
-    justify-content: space-between;
-    text-justify: right;
-    padding: 24px;
-    height: 60%;
+    flex-shrink: 1;
+}
+#flex.main{
+    display:flex;
+    justify-content: space-evenly;
+    text-align: right;
     word-wrap: normal;
+    padding: 24px;
+}
+#flex.info{
+  display:flex;
+  background-color: grey;
+  justify-content: space-evenly;
+  text-align: right;
+  word-wrap: normal;
+  padding: 24px;
+ }
+#flex.classes{
+    display:flex;
+    flex-flow: wrap;
+    text-align: right;
+    word-wrap: normal;
+    padding: 24px ;
 }
 #flex.thesis{
     display: flex;
     justify-content: space-evenly;
-    text-justify: right;
     padding: 24px;
     height: 60%;
-    word-wrap: normal;
+    
 }
-#Images{
-    width: auto;
-    text-align: inherit;
-    padding-left: auto;
+#flex.fisma{
+ display: flex;
+ justify-content: flex-end;
 }
+
 #flex.footer{
         display: flex;
         justify-content: space-between;
         text-justify: right;
         padding: 24px;
-        height: 60%;
         word-wrap: normal;
     }
     .banner-image{
