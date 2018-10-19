@@ -24,17 +24,10 @@ body,
 .oncampus{
        
        background-color: grey;
-       justify-content: space-evenly;
        text-align: right;
        word-wrap: normal;
        padding: 24px 64px 24px;
        flex-shrink: 1;
-       
-
-}
-#flex.box {
-    display: flex;
-    flex-shrink: 1;
 }
 #flex.main{
     display:flex;
