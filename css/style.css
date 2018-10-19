@@ -21,8 +21,8 @@ body,
         
             
 }
-#flex.oncampus{
-       display:flex;
+.oncampus{
+       
        background-color: grey;
        justify-content: space-evenly;
        text-align: right;
