@@ -20,7 +20,7 @@ body,
         
             
 }
-.oncampus{
+#flex2.oncampus{
     
        background-color: grey;
        text-align: right;
@@ -28,14 +28,15 @@ body,
        padding: 24px 64px 24px;
        flex-shrink: 1;
 }
-.main{
-        justify-content: space-evenly;
+#flex3.main{
+    display: inherit;
+    justify-content: space-evenly;
     text-align: right;
     word-wrap: normal;
     padding: 24px;
 }
-.info{
-  display:flex;
+#flex4.info{
+  display:inherit;
   background-color: grey;
   justify-content: space-evenly;
   text-align: right;
