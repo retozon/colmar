@@ -68,6 +68,8 @@ p{
     border-bottom: 18px;
     border-bottom-color: grey;
     word-spacing: normal;
+    justify-content: space-around;
+    max-width: 1200px;
 }
 #flexcontainer3.thesis {
     display: flex;
