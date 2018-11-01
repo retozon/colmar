@@ -63,13 +63,13 @@ p{
 }
 #flexcontainer2.main{
     display: flex;
-    flex-direction:row;
+    flex-direction:wrap;
     text-align: wrap;
     border-bottom: 18px;
     border-bottom-color: grey;
     word-spacing: normal;
-    justify-content: space-around;
-    max-width: 1200px;
+    justify-content: space-between;
+    width: 1200px;
 }
 #flexcontainer3.thesis {
     display: flex;
@@ -81,6 +81,8 @@ p{
     height: 600px;
     flex-wrap: wrap;
     align-content: flex-end;
+    justify-content: space-between;
+    width: 1200px;
     
     
 }
