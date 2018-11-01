@@ -1,0 +1,102 @@
+html,
+body,h1,h2,h3,h4,h5,
+    {
+    top: 32px;
+    bottom: 0;
+    left: 24px;
+    right: 24px;;
+    text-align: right;
+    padding: 0px;
+    text-emphasis: bold;
+}
+p{
+    padding: 0px;
+
+}
+.banner,h2,p{
+    text-align: center;
+}
+#flex.header{
+    display: flex;
+    flex-direction:flex;
+    text-align:right;
+    
+    height: 64px;
+    
+    
+}
+.learn,p{
+    text-align: ;
+}
+.headeroncampus{
+    padding: 16px;
+}
+.headeronline{
+    padding: 16px;
+}
+.headersignin {
+    padding: 16px;
+    border: 64px;
+}
+.
+.Button{
+    border-right: 16px;
+    padding:16px;
+}
+.info{
+    border-right: 16px;
+    padding:16px;
+}
+.banner-image{
+    align-content: flex-start;
+}
+
+
+#flexcontainer1.oncampus {
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+    border-bottom: 18px;
+    background-color: grey;
+    word-spacing: normal;
+    padding: 0px;
+}
+#flexcontainer2.main{
+    display: flex;
+    flex-direction:row;
+    text-align: wrap;
+    border-bottom: 18px;
+    border-bottom-color: grey;
+    word-spacing: normal;
+}
+#flexcontainer3.thesis {
+    display: flex;
+    flex-direction: wrap;
+    text-align: wrap;
+    text-overflow: inherit;
+    border-bottom: 18px;
+    background-color: grey;
+    height: 600px;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    
+    
+}
+.start{
+    border: 32px;
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.footer{
+    text-align: end;
+}
+.Colmar{
+    text-align: start;
+}
+.lecture{
+    background-color: grey;
+}
+.computer{
+    padding: 0px;
+}
